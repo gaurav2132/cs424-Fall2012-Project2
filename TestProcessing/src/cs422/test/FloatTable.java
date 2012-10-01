@@ -87,11 +87,6 @@ public class FloatTable {
 		return rowNames;
 	}
 
-
-	// Find a row by its name, returns -1 if no row found. 
-	// This will return the index of the first row with this name.
-	// A more efficient version of this function would put row names
-	// into a Hashtable (or HashMap) that would map to an integer for the row.
 	public int getRowIndex(String name) {
 		for (int i = 0; i < rowCount; i++) {
 			if (rowNames[i].equals(name)) {
