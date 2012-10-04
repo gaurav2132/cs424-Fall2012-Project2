@@ -12,7 +12,7 @@ public class Map extends PApplet{
 	  It uses the giCentre's geoMap library.
 	  Iain Dillingham, 20th January 2011.
 	*/
-	
+	// testing the new project changes
 	public static void main(String args[]) {
 	    PApplet.main(new String[] { "--present", "cs422.test.GeoMap" });
 	  }
